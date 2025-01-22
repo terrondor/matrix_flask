@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#cap {
+    height: 10rem;
+    width: auto; /* Увеличиваем ширину на 20% */
+    background-color: lightblue;
+}
+
+#home {
+    background-color: blueviolet;
+}
+
+#main {
+    background-color: lightblue;
+}
+
+#repair {
+    background-color: blueviolet;
+}
+
+#assembling {
+    background-color: lightblue;
+}
+
+#diagnostics {
+    background-color: blueviolet;
+}
+
+#about {
+    background-color: lightblue;
+}
+
+#contacts {
+    background-color: blueviolet;
+}

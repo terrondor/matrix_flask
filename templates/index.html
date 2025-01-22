@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATRIX</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/images.css') }}">
+</head>
+<body>
+    <div id="cap">
+        <nav>
+            <div class='nav-container'>
+                <img src="static/images/matrix.png" alt="Логотип" class="logo">
+                <ul class ="nav-list">
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#repair">Ремонт компьютеров и ноутбуков</a></li>
+                    <li><a href="#assembling">Сборка компьютеров</a></li>
+                    <li><a href="#diagnostics">Диагностика компьютеров и ноутбуков</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+        </nav>
+    </div>
+    <div id ="main">
+        <h2>О компании</h2>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Телефон: +7 (123) 456-78-90</p>
+    </div>
+    <div id ="repair">
+        <h2>Ремонт компьютеров и ноутбуков</h2>
+        <ul>
+            <li>Ремонт мобильных телефонов</li>
+            <li>Ремонт компьютеров</li>
+            <li>Ремонт ноутбуков</li>
+        </ul>
+    </div>
+    <div id="assembling">
+        <h2>Сборка компьютеров</h2>
+        <p>Мы можем собрать и установить любую машину, на которую вы хотите пользоваться.</p>
+        <a href="#" class="btn btn-secondary">Подробнее о сборке</a>
+    </div>
+    <div id ="diagnostics">
+        <h2>Диагностика компьютеров и ноутбуков</h2>
+        <p>Мы можем провести диагностику и ремонтировать любые устройства.</p>
+        <a href="#" class="btn btn-success">Подробнее о диагностике</a>
+    </div>
+    <div id = "about">
+        <h2>О нас</h2>
+        <p>Мы являемся компанией, которая занимается производством и продажей мобильных телефонов, ноутбуков и компьютеров.</p>
+    </div>
+    <div id = "contacts">
+        <h2>Контакты</h2>
+        <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+        <p>Телефон: +7 (123) 456-78-90</p>
+    </div>
+    
+
+</body>
+</html>
