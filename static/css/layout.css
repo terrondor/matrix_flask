@@ -5,11 +5,7 @@ html {
 #cap {
     height: 10rem;
     width: auto; /* Увеличиваем ширину на 20% */
-    background-color: lightblue;
-}
-
-#home {
-    background-color: blueviolet;
+    background-color: white;
 }
 
 #main {
